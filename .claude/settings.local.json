@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(mv:*)",
+      "Bash(for file in *.js)",
+      "Bash(do mv \"$file\" \"$file%.js.jsx\")",
+      "Bash(done)",
+      "Bash(npm install:*)",
+      "WebFetch(domain:www.jienweng.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

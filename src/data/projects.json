@@ -1,0 +1,48 @@
+{
+  "join-make": {
+    "year": "2024",
+    "title": "Join & Make",
+    "description": "A collaborative sake brewing platform with Miyoshikiku Brewery where users vote on music tracks that create vibrations during fermentation to influence sake flavor.",
+    "tags": ["Vue.js", "AWS Lambda", "DynamoDB"],
+    "slug": "join-make",
+    "fullDescription": "Join & Make is a collaborative initiative between Fujitsu and Miyoshikiku Sake Brewery that revolutionizes traditional sake production through user participation and music vibration technology.\n\nThe platform allows users to submit and vote on musical tracks that are played during sake fermentation. These musical vibrations are applied directly to the fermenting sake mash through speakers placed on fermentation tanks. The project produces two versions of sake: \"MUSIC ver.\" with musical vibrations and \"MUTE ver.\" without, demonstrating how vibrations can accelerate fermentation and alter flavor profiles.\n\nBuilt with Vue.js for an interactive user experience, the platform uses AWS Lambda for serverless backend operations and DynamoDB for data storage. The project features NFT technology for event tickets and livestreaming capabilities that make the brewing process transparent and engaging for participants.",
+    "features": [
+      "User voting system for music selection",
+      "Direct musical vibration application to fermentation tanks",
+      "Dual sake production (MUSIC vs MUTE versions)",
+      "NFT technology integration for events",
+      "Live brewing process streaming",
+      "Collaborative partnership with traditional brewery"
+    ],
+    "technologies": [
+      "Vue.js for interactive frontend",
+      "AWS Lambda for serverless backend", 
+      "DynamoDB for data persistence",
+      "Blockchain for voting transparency",
+      "AWS CloudFront for content delivery",
+      "RESTful API architecture"
+    ],
+    "socialLinks": [
+      {
+        "name": "Website",
+        "url": "https://joinmake.jp",
+        "icon": "website"
+      },
+      {
+        "name": "Twitter", 
+        "url": "https://x.com/joinandmake",
+        "icon": "twitter"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/@Joinandmake",
+        "icon": "youtube"
+      },
+      {
+        "name": "Article",
+        "url": "https://jp.sake-times.com/special/pr/pr_fujitsu-join-and-make",
+        "icon": "article"
+      }
+    ]
+  }
+}
